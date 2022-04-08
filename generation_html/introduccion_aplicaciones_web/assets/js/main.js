@@ -1,1 +1,1 @@
-alert("Esta es mi pagina completa");
+/* alert("Esta es mi pagina completa"); */
