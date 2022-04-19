@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(165, 231, 225);
+}
+h1{
+    font-family: cursive;
+    text-align: right;
+}
+h2{
+    font-size: 30px;
+    font-family: Helvetica;
+
+}
+p{
+    font-family: cursive;
+    text-align: center;
+}

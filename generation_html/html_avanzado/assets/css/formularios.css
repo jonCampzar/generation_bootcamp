@@ -1,0 +1,29 @@
+
+h1{
+    text-align: center;
+}
+.formulario{
+    border: 5px solid blueviolet;
+    padding: 10px;
+    background-color: rgb(197, 157, 235);
+    margin: 0 auto;
+    border-radius: 13px;
+    width: 300px;
+}
+.colorFondo{
+    background-color: rgb(227, 194, 229);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.enviarb{
+    background-color: rgb(116, 11, 116) ;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.aco{
+    display: inline-block;
+    width: 100px;
+}

@@ -1,0 +1,56 @@
+/*
+px se puede aplicar a la fuente y el tamaño del body
+*/
+/*
+1200px tamaño de pantallas de pc
+750px tablet
+450px celular
+*/
+
+/*
+Unidades de medida relativa
+%
+rem 1 rem= tamaño de px de nuestro navegador. relativo al tamaño de fuente
+em tamaño de fuente del elemento padre
+vh
+vw
+*/
+/* *{
+    box-sizing: border-box;
+}
+
+body{
+   
+    margin: 0;
+}  */
+
+.forma{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+
+}
+/* el auto en ancho y largo, se adapta al ancho o alto del contenido*/
+.color{
+    background-color: blue;
+    border: 5px solid red;
+}
+
+p{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+a{
+    width: 50%;
+    padding: 10px;
+    border: 3px solid red;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+}
