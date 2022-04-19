@@ -1,0 +1,27 @@
+h3{
+    font-family: cursive ;
+    font-size: medium;
+}
+.borde1{
+    font-family: cursive;
+    background-color:rgb(233, 45, 208);
+    border-color: rgb(233, 45, 208);
+}
+
+.borde2{
+    font-family: cursive;
+    background-color:rgb(211, 75, 34);
+    border-color: rgb(10, 0, 9);
+    border-radius: 5px;
+}
+.borde3{
+    font-family: cursive;
+    background-color:rgb(250, 250, 255);
+    border-left: 8px solid rgb(224, 16, 51);    
+}
+.borde4{
+    font-family: cursive;
+    background-color:rgb(250, 250, 255);
+    border-bottom: 2px solid rgb(218, 60, 86);  
+    border-top: 2px solid rgb(218, 60, 86);
+}

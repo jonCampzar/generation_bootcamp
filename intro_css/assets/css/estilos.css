@@ -1,0 +1,41 @@
+/* selector universal **/
+/* *{
+    /* background-color: crimson; */
+
+
+/* selector de etiqueta
+Elemento HTML{
+    }*/
+/* selector de clase*/
+/* body{
+    background-color: #1A67D0;
+} */
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(81, 255, 0);
+    border: 1px solid rgb(3, 7, 19);
+    border-radius: 10px;
+}
+/*selector de id */
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255,.5); 
+}
+/* mayor jerarquia !important  */
+
+.color{
+    background-color: turquoise;
+}
+.color{
+    background-color: tomato;
+}
+.color{
+    background-color: black;
+}
+.color-texto{
+    color: rgb(255, 255, 255); background-color: rgb(204, 45, 138);
+}
+
