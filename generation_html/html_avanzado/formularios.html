@@ -38,44 +38,33 @@
 
     </form>
 
-    <script>
-        const color = document.querySelector("#inputColor")
-        console.log(color);
-        color.addEventListener("change", function (e) {
-            document.body.style.backgroundColor = e.target.value;
-        })
-
-
-
-    </script>
     <hr>
     <h1>Formulario</h1>
-    <form class="formulario">
+    <form class="formulario" id="formularioDatos">
         <div class="nombre">
             <label class="aco" for="nombre">Nombre</label>
             <input class="colorFondo" type="text" name="name" id="nombre"  required placeholder="Nombre">
         </div>
         <div class="apellido">
             <label class="aco" for="apellido">Apellido</label>
-            <input class="colorFondo" type="text" id="apellido" placeholder="Apellido">
+            <input class="colorFondo" type="text" name="lastname" id="apellido" placeholder="Apellido">
         </div>
         <div class="password">
             <label class="aco" for="password">Contraseña</label>
-            <input class="colorFondo"type="password" id="password" required>
+            <input class="colorFondo"type="password" name="password" id="password" required>
         </div>
         <div class="correo">
             <label class="aco"  for="correo">Correo</label>
-            <input class="colorFondo" type="email" id="correo" required>
+            <input class="colorFondo" name="email" type="email" id="correo" required>
         </div>
+        <input type="checkbox" name="check" value="Hola" checked>
         <div class="enviar">
             <input class="enviarb" type="submit" value="Enviar">
           <!--   <button type="submit"><im width hrf="http://www.sinologic.net/wp-content/uploads/2018/07/Carrier-Pigeon2-300x285.png">
             </button> -->
         </div>
-
-
-
-
     </form>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

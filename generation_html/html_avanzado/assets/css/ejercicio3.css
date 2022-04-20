@@ -1,0 +1,34 @@
+.formulario3{
+    background-color: green;
+    color: white;
+    padding: 50px;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+    width: 330px;
+    margin: 0 auto;
+}
+.espaciado{
+    padding-left: 30px;
+
+}
+label{
+    /* espaciar el label y centrarlo bien, el display es para hacer los inputs mas largos y que compartan  */
+    display: inline-block;
+    width: 80px;
+}
+input{
+    border: 3px solid red;
+}
+.btn{
+    border: none;
+    width: 100px;
+}
+.boton{
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px dotted white;
+    width: 150px;
+}
+p{
+    padding: 10px 0;
+}

@@ -1,7 +1,7 @@
 .formulario2{
     border: 10px solid rgb(128, 128, 235);
     background-color: green;
-    padding: 10px;
+    padding: 70px;
     width: 400px;
     margin: 0 auto;
     color: white;
@@ -15,10 +15,10 @@ input{
 }
 .env{
     border: none;
-    border-top: 2px dotted black;
     padding: 20px;
+    border-top: 1px dotted black;
     margin: 30px 30px;
-    
+    background-color: green;   
 }
 label{
     display: inline-block;
