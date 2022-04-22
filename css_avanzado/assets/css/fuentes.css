@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Roboto&family=Square+Peg&display=swap');
+
+*{
+   /*  font-family: 'Montserrat', sans-serif; */    
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Square Peg', cursive;
+}

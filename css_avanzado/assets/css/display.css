@@ -1,0 +1,42 @@
+.padre{
+width: 80%;
+height: 60vh; /* ocupa el 60% de la parte visible de nuestra pantalla */
+border: 1px solid red;
+margin: 0 auto;
+display: flex;
+/* flex-direction: column;
+justify-content: center;
+align-items: center; */
+justify-content: space-around;
+flex-wrap: wrap;
+}
+/* 
+
+en el caso de flex direction: tenemos:
+row(fila)
+justify-con: los acomoda hor(izq a derecha)
+
+alight items: acomoda vertical (arriba abajo)
+
+column
+alig items: acomoda horizontal (izq a derecha)
+justify: acomoda vertical (arriba abajo)
+*/
+
+.hijo{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    
+
+}
+.div1{
+    background-color: blue;
+  /*   align-self: flex-end;  para bajar este elemento desde arriba*/
+}
+.div2{
+    background-color: blueviolet;
+}
+.div3{
+    background-color: tomato;
+}
