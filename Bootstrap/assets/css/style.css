@@ -1,0 +1,14 @@
+/* navbar */
+.img-logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    /* fit para que se contenga en un tamaño sin deformarse */
+}
+.img-car{
+    height: calc(100vh - 76px) ;
+    /* alli hacemos un calculo para que la foto este alta del tamaño de la pantalla y le restamos el tamaño de la navbar de esa */
+    object-fit: cover;
+    object-position: center;
+}
