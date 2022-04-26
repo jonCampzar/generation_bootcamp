@@ -12,6 +12,23 @@
     object-fit: cover;
     object-position: center;
 }
+.pantalla{
+    position: absolute; /* para que se salga del flujo, absolute, w para que ocupe todo el espacio del carrusel y el height, display flex para que podamos alinearlo y justificarlo al centro, justify para horizontal, align para vertical y text align para centrar el texto*/
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 76px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cuadro{
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.274);
+padding: 20px;
+color: white;
+width: 50vw; /* 50vw para que no ocupe todo el ancho */
+}
 .img-card{
     /* si no ponemos el ancho width es del 100% */
     height: 200px;
