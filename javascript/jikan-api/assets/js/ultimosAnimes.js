@@ -18,13 +18,15 @@ fetch(urlUltimos).then(resp => resp.json()).then(datos =>{
         }
 
         const template = `<div class="col mb-4">
+        <a href="informacion.html?id=${datosNecesarios.id}">
         <div class="card">
           <img src="${datosNecesarios.imagen}" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">${datosNecesarios.nombre}</h5>
            
           </div>
-        </div>
+          </div>
+          </a>
       </div>`
 
        ultimosAnimes.innerHTML += template;
