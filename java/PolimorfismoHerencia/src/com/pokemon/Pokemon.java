@@ -1,6 +1,6 @@
 package com.pokemon;
 
-public class Pokemon {
+public abstract class Pokemon { //clase abstracta
 
 	//Atrinutos
 	
@@ -27,12 +27,19 @@ public class Pokemon {
 		System.out.println(nombre + " esta comiendo");
 	}
 	
+	public void comer(String comida) {
+		System.out.println(nombre + " esta comiendo " + comida);
+	}
 	public void atacar() {
 		System.out.println(nombre +" esta atacando");
 	}
 	public void dormir() {
 		System.out.println(nombre + " Zzzzz");
 	}
+	
+	//metodo abstracto, metodo vacio (abstract) no le diremos que hacer en la clase padre, los hijos se encargan de esto
+	
+	public abstract void saludar(String mensaje);
 
 	//getter y setters
 	
